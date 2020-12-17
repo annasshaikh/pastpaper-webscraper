@@ -23,7 +23,7 @@ UI:
 
 Here Are Example Of All Physics (9702) Past Paper :
 
-<a href="https://ibb.co/YLHrsBM"><img src="https://i.ibb.co/d58hY4q/school-data-Output.png" alt="school-data-Output" border="0"></a>
+<a href="https://ibb.co/FgzV2KZ"><img src="https://i.ibb.co/9sWt6NK/Out-Put-Folder.png" alt="Out-Put-Folder" border="0"></a>
 
 ## Code
 
