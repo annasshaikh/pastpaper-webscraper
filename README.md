@@ -1,8 +1,10 @@
 # Python Web Scraper
 
-12th Dec 2020
+12th Dec 2020 
 
-This Is a Web Scraper to download all pastpaper from a [website](https://papers.gceguide.com/A%20Levels/) for Cambridge A-Level pastpapers 
+This Is a Web Scraper to download all pastpaper from a [website](https://papers.gceguide.com/A%20Levels/) for Cambridge A-Level pastpapers
+
+Inspration: For An A Level Student, Its Very Hard to Scroll and Search for papers Online to download them. Especially When You Need to download bulk of papers. Here using python I was able to download thousand of paper in shorter span of time.
 ## Usage
 
 Note: Have Stable Internet Connection 
