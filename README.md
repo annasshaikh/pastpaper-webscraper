@@ -1,8 +1,8 @@
-# Python WebScraper
+# Python Web Scraper
 
 12th Dec 2020
 
-This Is a WebScrapper to download all pastpaper from a [website](https://papers.gceguide.com/A%20Levels/) for Cambridge A-Level pastpapers 
+This Is a Web Scraper to download all pastpaper from a [website](https://papers.gceguide.com/A%20Levels/) for Cambridge A-Level pastpapers 
 ## Usage
 
 Note: Have Stable Internet Connection 
@@ -11,9 +11,19 @@ You would need the full Url of the component. The Following is a Example for Che
 ```bash
 https://papers.gceguide.com/A%20Levels/Chemistry%20(9701)/
 ```
+## Example
+
+
 Output:
 
+UI:
+
 <a href="https://ibb.co/T1V37fX"><img src="https://i.ibb.co/tz7rvGf/Output.png" alt="Output" border="0"></a>
+
+
+Here Are Example Of All Physics (9702) Past Paper :
+
+<a href="https://ibb.co/YLHrsBM"><img src="https://i.ibb.co/d58hY4q/school-data-Output.png" alt="school-data-Output" border="0"></a>
 
 ## Code
 
@@ -22,7 +32,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-#Downloads The PDF fron its Url And Saves it 'filename' folder
+#Downloads The PDF from its Url And Saves it 'filename' folder
 def download_file(download_url, filename,index): 
     print(f"Downloading File #{index}: {filename} ")
     response = requests.get(download_url)
@@ -78,4 +88,3 @@ if __name__ == "__main__" :
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
